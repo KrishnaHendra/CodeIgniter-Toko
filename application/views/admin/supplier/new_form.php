@@ -43,7 +43,7 @@
 							<div class="form-group">
 								<label for="name">Name</label>
 								<input class="form-control <?php echo form_error('supplier_name') ? 'is-invalid':'' ?>"
-								 type="text" name="name" min="0" placeholder="Supplier Name" style="border-color:#9fff7a;"/>
+								 type="text" name="supplier_name" min="0" placeholder="Supplier Name" style="border-color:#9fff7a;"/>
 								<div class="invalid-feedback">
 									<?php echo form_error('supplier_name') ?>
 								</div>
@@ -52,7 +52,7 @@
                             <div class="form-group">
 								<label for="address">Address</label>
 								<input class="form-control <?php echo form_error('supplier_address') ? 'is-invalid':'' ?>"
-								 type="text" name="address" min="0" placeholder="Supplier Address" style="border-color:#9fff7a;"/>
+								 type="text" name="supplier_address" min="0" placeholder="Supplier Address" style="border-color:#9fff7a;"/>
 								<div class="invalid-feedback">
 									<?php echo form_error('supplier_address') ?>
 								</div>
